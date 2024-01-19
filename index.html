@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nada</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievement">Achievement</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nahdah Hanifah</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links open">
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#achievement" onclick="toggleMenu()">Achievement</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./asset/profilepicture.png" alt="Nahdah Hanifah profile picture"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Nahdah Hanifah</h1>
+            <p class="section_text_p2">Sebelas Maret University Student <br> 
+            English Department 21</p>
+            <div class="btn-container">
+                <button class="btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./asset/linkedi.png" 
+                alt="My LinkedIn profile"
+                class="icon" 
+                onclick="location.href='https://linkedin.com/in/nahdah-hanifah-9969122a1/'
+                "/>
+                <img src="./asset/github-icon.png" 
+                alt="My Github profile"
+                class="icon" onclick="location.href='https://github.com/Jezaire'
+                "/>
+            </div>
+        </div>
+        
+    </section>
+
+    <body>
+        <section id="about">
+            <p class="about_text_p1">Get to know more</p>
+            <h1 class="title">About Me</h1>
+            <br>
+            <div class="about-container">
+                <div class="about-pic-container">
+                    <img src="./asset/aboutpic.jpg" 
+                    alt="About profile"
+                    class="about-pic"
+                    />
+                </div>
+                <br>
+
+                <div class="summary">
+                    <img src="./asset/education.png"
+                    alt="Education icon"
+                    class="icon"/>
+                    <h3>Summary</h3>
+                    <br>
+                    <p>A passionate and determined learner
+                        of various disciplines with a strong 
+                        public speaking experience. Aspire to be
+                        one of the skillful digital talents in order
+                        to take part as an active role in Indonesia's 
+                        Generasi Emas 2045.
+                    </p>
+                </div>
+                <br>
+                <div class="about-details-container">
+                        <div class="experience-container">
+                            <img src="./asset/experience.png" 
+                            alt="experience icon"
+                            class="icon">
+                            <h3>Experiences</h3>
+                            <br>
+                            <div>
+                                <ol>
+                                    <li>Staff of Public Relation division in ArtFestival '22 by EDCOM</li>
+                                    <li>Staff of Wardrobe and Makeup in Drama Project by English Department '21</li>
+                                    <li>Staff of Public Relation division in Ichimonogatari '22 by Ichirorenji</li>
+                                </ol>
+                            </div>
+                          
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="experience">
+            <div class="experiences">
+                <h1 class="title">Experience</h1>
+                <img src="./asset/experiencereal.jpg"
+                class="Purwacarita1">
+                <br>
+                <div class="experiencetext">
+                            <h3>Staff of Public Relation in Art Festival 2022</h3>
+                            <p>I participated in as one of the Public Relation staff in an event 
+                                held by the EDCOM (English Department Community) called Art Festival. 
+                                My main job was to become the liaison between the performers and the 
+                                internal, which included, but was not limited to, adding the performers 
+                                phone numbers into a group messenger, asking for a convenient time between 
+                                two parties to hold a technical meeting, and accompanying the performers 
+                                during the event.</p>
+                        <br><br>
+                        <h3>Staff of Make up and Wardrobe in English Department '21 Drama 2023</h3>
+                            <p>During the 4th semester, our year were assigned by our Introduction 
+                                to Drama teacher to make drama performances as the final project of 
+                                this subject. Among many divisions, I was in charged of wardrobe and 
+                                makeup due to my everlasting interest in fashion. Deciding the costume 
+                                for the performers was one of my jobs aside from applying makeup to 
+                                each of them. </p1>
+                            </div>
+                        <br>
+                        <img src="./asset/experiencereal2.jpg" 
+                        class="Purwacarita2">   
+                        <br><br>
+                        <h3>Staff of Public Relation in Ichimonogatari 2022</h3>
+                            <p>In 2022, I participated on the volunteering of a 
+                                Japanese event called Ichimonogatari held by Ichirorenji, 
+                                a Japanese enthusiast community in Sebelas Maret University. 
+                                In this event, I became one of the staff of Public Relation 
+                                division. Following the instruction from my head of coordinator, 
+                                one of my job was looking for the media partners for this event.</p1>        
+            </div>
+        </section>
+        <br><br><br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        <section id="achievement">
+            <div class="achievement">
+                <h1 class="title">Achievement</h1>
+                <br>
+                <ol>
+                    <li>
+                            <h3>2nd winner of National Public Speaking Competition</h3>
+                        <p1>The speech competition was held online by HIMAVA SV UNS and D3 
+                            Administration Management SV UNS in 2022. In this competition, 
+                            I made my own speech 
+                            under the title of 'Online Classes 101'. It was about 
+                            how the education system started to normalize online classes as the alternative of 
+                            conventional classes during the pandemic. <br>The certificate link can be
+                            accessed <a target="_blank" href="https://drive.google.com/file/d/1khGj9zmDA93cj8fXN_S4npqEFxTcrAiJ/view?usp=sharing">here</a>.
+                        </p1>
+                    </li>
+                    <br>
+                    <li>
+                            <h3>3rd winner of English Poetry Reading</h3>
+                            <p1>The poetry reading competition was held by UIN Raden Mas Sahid
+                                Surakarta in 2022. In this competition, I chose 'Still I Rise'
+                                by Maya Angelou. The main reason why I chose this particular poetry was
+                                because I firmly believed that as a woman, I needed to be strong and
+                                independent regardless of any obstacles. <br>The certificate link can
+                                be accessed <a target="_blank" href="https://drive.google.com/file/d/1kiDF1LpnSFalSHgIKOEJunc4Wo5XqILJ/view?usp=sharing">here</a>.
+                            </p1>
+                    </li>
+                </ol>
+                <br><br>
+                <p>
+                    Note: These were achieved in the last 2 years
+                </p>
+            </div>
+        </section>
+    </body>
+
+    <section id="project">
+        <div class="Project">
+            <h1 class="title project">Project</h1>
+            <br>
+            <br>
+        
+                <img src="./asset/Purwacarita1.jpg"
+                class="Purwacarita1">
+            
+            <div class="section-1">
+                <p>     Ever since my junior high school, I have been interested in acting 
+                    and drama, in fact, I have won several storytelling competitions, 
+                    and have performed and directed a drama in a stage during my junior 
+                    high school days. Even though I have such passion until now, I never 
+                    get the chance to perform any drama in my own faculty 
+                    because of the unsupported environment.
+                    <br><br>
+                    It all has changed until one of my friends from the Art and Design Faculty 
+                    offered me for being the main character as well as the narrator for their 
+                    teaser event called Purwa Carita. Without hesitation, I immediately 
+                    took the offer. In the teaser, I became a writer of Indonesian folklore 
+                    who wanted to spread the awareness of our traditional culture to those whose 
+                    interests had slowly reverted to the Western. 
+                </p>
+                <br>
+                <img src="./asset/Purwacarita2.jpg"
+                class="Purwacarita2">
+            <div class="section-2">
+                <p>
+                    <br>
+                    Directed by two students from the Art and Design Faculty, they truly knew their 
+                    ways with the cameras. Following their instructions, we could finish the shooting process in just one day. All of us were exhausted, but it was 
+                    truly worth the effort. In the next day, both of them could finish the teaser skillfully and make the teaser with a dream-like nuance.
+                    And the teaser can be accessed <a target="_blank" href="https://www.instagram.com/reel/CxqTav0PNkY/?igsh=MXFuMWw5cW9yMXZ2dQ==">here</a>. 
+                    
+                    <br><br>
+                    This experience has taught me that we have our very own room to grow, 
+                    and it is just the matter of the time when we will find the right place with the right people.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+    <section id="contact">
+        <p class="about_text_p1"> Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact_box">          
+            <img src="./asset/letter.png"
+            class="contact_container_icon"> 
+            <p> <a href="mailto: nahdahhanifah@gmail.com">
+                nahdahhanifah@gmail.com</a></p>          
+            <img src="./asset/linkedi.png"
+            class="contact_container_icon"> 
+            <p><a href="https://linkedin.com/in/nahdah-hanifah-9969122a1/">
+                LinkedIn</a></p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <nav id="desktop-nav">
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#achievement">Achievement</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+    </section>
+
+    
+    <section id="thank_you_statement">
+        <h1 class="title">Thank you so much!</h1>
+        <br>
+        <p class="about_text_p1">I truly appreciate your time on taking look at my 
+            very first portfolio website project! <br> I hope my portfolio can give you 
+            a little more insight about me. <br> In addition, it is my dream to become a future software engineer.
+            Therefore, making this website is a great opportunity for me to hone
+            my skills. <br> Please look forward on my next project! ^-^ <br><br> ~Nada~</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
